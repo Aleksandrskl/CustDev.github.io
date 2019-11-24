@@ -1,0 +1,39 @@
+.reviews-block {
+	position: absolute;
+	width: 146px;
+	text-align: center;
+	top: 40px;
+	left: 39px;
+	color: #2F80ED;
+}
+
+.reviews-block__title {
+	font-size: 14px;
+	line-height: 27px;
+	margin: 0;
+	font-weight: 400;
+}
+
+.reviews-block__scale {
+	font-weight: 700;
+	margin: 0;
+	font-size: 34px;
+	line-height: 50px;
+}
+
+.reviews-block__name {
+	margin: 0;
+}
+
+.reviews-block__company {
+	margin: 0;
+	font-weight: 700;
+}
+
+.reviews-block__link {
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 20px;
+	text-decoration: none;
+	color: #2F80ED;
+}
