@@ -1,0 +1,59 @@
+.trust {
+	padding: 0 8px;
+	margin-bottom: 80px;
+}
+
+.trust__title {
+	margin: 0;
+	margin-bottom: 50px;
+	font-size: 24px;
+	font-weight: 700;
+	color: #000000;
+	text-align: center;
+}
+
+.trust__list {
+	margin: 0;
+	padding: 0 49px 0 71px;
+	list-style: none;
+}
+
+.trust__heading {
+	margin: 0;
+	margin-bottom: 15px;
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #2F80ED;
+}
+
+.trust__description{
+	font-size: 16px;
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+.trust__item {
+	margin: 0;
+	padding-top: 100px;
+}
+
+.trust__item--experience {
+	background-image: url("../img/mobile/icon-trust1.svg");
+	background-repeat: no-repeat;
+}
+
+.trust__item--finish {
+	background-image: url("../img/mobile/icon-trust2.svg");
+	background-repeat: no-repeat;
+}
+
+.trust__item--constructor {
+	background-image: url("../img/mobile/icon-trust3.svg");
+	background-repeat: no-repeat;
+}
+
+.trust__item--lecturer {
+	background-image: url("../img/mobile/icon-trust4.svg");
+	background-repeat: no-repeat;
+}
