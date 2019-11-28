@@ -1,0 +1,31 @@
+.gallery__title {
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+	color: #000000;
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+.gallery__wrapper-image {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 60px;
+}
+
+.gallery__image-link {
+	display: block;
+}
+
+.gallery__сard {
+	padding-bottom: 5px;
+}
+
+.gallery__сard:nth-child(7) {
+	padding: 0;
+}
+
+.gallery__сard:nth-child(8) {
+	padding: 0;
+}

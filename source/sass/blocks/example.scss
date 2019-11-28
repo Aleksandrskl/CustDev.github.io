@@ -9,6 +9,10 @@
 	box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.1);
 }
 
+.example:last-child {
+	margin-bottom: 0;
+}
+
 .example__title {
 	font-size: 24px;
 	font-weight: 700;
