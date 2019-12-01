@@ -1,0 +1,87 @@
+.price {
+	padding-top: 70px;
+	padding-bottom: 40px;
+	background-color: #2F80ED;
+	border-radius: 20px;
+	margin-bottom: 115px;
+}
+
+.price__title {
+	font-weight: 700;
+	font-size: 24px;
+	margin: 0;
+	margin-bottom: 60px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.price__list {
+	list-style: none;
+	padding: 0;
+	padding: 0 21px;
+	margin: 0;
+}
+
+.price__item {
+	background-color: #ffffff;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.price__item--custdev {
+	padding: 170px 20px 22px 50px;
+	background-image: url("../img/mobile/price1.svg");
+	background-repeat: no-repeat;
+	background-position: 40px 40px;
+}
+
+.price__item--bookmat {
+	padding: 170px 47px 22px 50px;
+	background-image: url("../img/mobile/price2.svg");
+	background-repeat: no-repeat;
+	background-position: 40px 40px;
+}
+
+.price__item--smile {
+	padding: 94px 40px 20px 50px;
+	background-image: url("../img/mobile/price4.svg");
+	background-repeat: no-repeat;
+	background-position: 40px 20px;
+}
+
+.price__head {
+	font-weight: 600;
+	font-size: 14px;
+	margin: 0;
+	text-transform: uppercase;
+	color: #2F80ED;
+}
+
+.price__item:last-child {
+	margin-bottom: 0;
+}
+
+.price__item--video {
+	position: relative;
+	padding: 75px 50px;
+}
+
+.price__video-img {
+	border-radius: 10px;
+}
+
+.price__btn {
+	position: absolute;
+	left: 43%;
+	top: 40%;
+	border: none;
+	background-color: transparent ;
+	padding: 0;
+}
+
+.price__head {
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #2F80ED;
+}

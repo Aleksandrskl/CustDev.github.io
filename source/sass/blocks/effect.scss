@@ -1,8 +1,8 @@
 .effect {
 	background: #2F80ED;
 	border-radius: 20px;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	padding-bottom: 40px;
+	padding-top: 60px;
 	margin-bottom: 80px;
 	/* background-image: url("../img/mobile/bacground-effect.png");
 	background-repeat: no-repeat; */
@@ -13,7 +13,6 @@
 	font-weight: 700;
 	margin: 0;
 	margin-bottom: 40px;
-	margin-top: 40px;
 	text-align: center;
 	color: #ffffff;
 }
@@ -53,6 +52,10 @@
 	background-repeat: no-repeat;
 }
 
+.effect__item--cases:last-child {
+	margin: 0;
+}
+
 .effect__item-title {
 	font-weight: 600;
 	font-size: 14px;
@@ -63,5 +66,5 @@
 }
 
 .effect__item-description {
-	margin: 0;
+	margin-bottom: 0;
 }
