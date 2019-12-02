@@ -37,3 +37,13 @@
 	text-decoration: none;
 	color: #2F80ED;
 }
+
+.reviews-block__link:hover {
+	color: #0545ed;
+	border-bottom: 1px solid #0545ed;
+}
+
+.reviews-block__link:active {
+	border-bottom: 1px solid #5d9cec;
+	color: rgba(93,156,236,1);
+}

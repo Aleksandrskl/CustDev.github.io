@@ -33,6 +33,41 @@
 	padding-left: 70px;
 	padding-right: 20px;
 	text-transform: uppercase;
-	text-decoration: none;
+	text-decoration: underline;
 	color: #2F80ED;
+}
+
+.course-program__link:hover {
+	color: #0265eb;
+}
+
+.course-program__link:active {
+	color: rgba(8,91,204,.6);
+}
+
+@media (min-width: $tablet-width) {
+	.course-program__wrapper {
+		padding-left: 94px;
+		padding-right: 94px;
+	}
+
+	.course-program__title {
+		font-size: 30px;
+		text-align: left;
+	}
+
+	.course-program__list {
+		padding: 0;
+	}
+
+	.course-program__list-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.course-program__link  {
+		width: 250px;
+		padding: 0;
+	}
 }

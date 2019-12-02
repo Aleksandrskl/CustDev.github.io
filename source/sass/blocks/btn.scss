@@ -7,3 +7,12 @@
 	text-transform: uppercase;
 	text-decoration: none;
 }
+
+.btn:hover {
+	background-color: #30cfb5;
+}
+
+.btn:active {
+	background-color: #00d8b4;
+	color: rgba(255,255,255,.7);
+}
