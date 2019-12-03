@@ -6,6 +6,11 @@
 @media (min-width: $tablet-width) {
 	.wrapper {
 		width: 768px;
-		margin: 0;
+	}
+}
+
+@media (min-width: $desktop-width) {
+	.wrapper {
+		width: 1440px;
 	}
 }

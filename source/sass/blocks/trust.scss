@@ -30,11 +30,11 @@
 .trust__description{
 	font-size: 16px;
 	margin: 0;
-	margin-bottom: 30px;
 }
 
 .trust__item {
 	margin: 0;
+	margin-bottom: 30px;
 	padding-top: 100px;
 }
 
@@ -56,4 +56,40 @@
 .trust__item--lecturer {
 	background-image: url("../img/mobile/icon-trust4.svg");
 	background-repeat: no-repeat;
+}
+
+@media (min-width: $tablet-width) {
+	.trust {
+		padding-left: 94px;
+		padding-right: 105px;
+	}
+
+	.trust__title {
+		font-size: 30px;
+		text-align: left;
+	}
+
+	.trust__list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 0;
+	}
+
+	.trust__item {
+		width: 247px;
+		margin-bottom: 75px;
+	}
+
+	.trust__heading {
+		width: 190px;
+	}
+
+	.trust__item:nth-child(3) {
+		margin-bottom: 0;
+	}
+
+	.trust__item:nth-child(4) {
+		margin-bottom: 0;
+	}
 }

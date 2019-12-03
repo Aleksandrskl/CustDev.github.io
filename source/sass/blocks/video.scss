@@ -16,3 +16,10 @@
 	background-color: transparent ;
 	padding: 0;
 }
+
+@media (min-width: $tablet-width) {
+	.video__btn {
+		left: 44%;
+		top: 40%;
+	}
+}

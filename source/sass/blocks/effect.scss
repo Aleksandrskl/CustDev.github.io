@@ -4,8 +4,6 @@
 	padding-bottom: 40px;
 	padding-top: 60px;
 	margin-bottom: 80px;
-	/* background-image: url("../img/mobile/bacground-effect.png");
-	background-repeat: no-repeat; */
 }
 
 .effect__title {
@@ -16,6 +14,7 @@
 	text-align: center;
 	color: #ffffff;
 }
+
 .effect__list {
 	padding: 0;
 	margin: 0;
@@ -67,4 +66,40 @@
 
 .effect__item-description {
 	margin-bottom: 0;
+}
+
+
+@media (min-width: $tablet-width) {
+	.effect {
+		padding-left: 96px;
+		padding-right: 105px;
+	}
+	.effect__title {
+		width: 371px;
+		font-size: 30px;
+		text-align: left;
+	}
+
+	.effect__list {
+		padding: 0;
+	}
+
+	.effect__item {
+		width: 366px;
+		padding: 38px 46px 38px 154px;
+		background-position: 60px 40px;
+		margin-bottom: 25px;
+	}
+
+	.effect__item--process {
+		padding-bottom: 116px;
+	}
+
+	.effect__item--tools {
+		padding-bottom: 64px;
+	}
+
+	.effect__item--cases {
+		padding-bottom: 116px;
+	}
 }
