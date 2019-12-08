@@ -29,3 +29,10 @@
 .gallery__сard:nth-child(8) {
 	padding: 0;
 }
+
+@media (min-width: $tablet-width) {
+	.gallery__title {
+		font-size: 30px;
+		margin-bottom: 70px;
+	}
+}

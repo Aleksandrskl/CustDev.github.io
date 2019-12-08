@@ -39,3 +39,26 @@
 	border-radius: 100%;
 	margin-bottom: 25px;
 }
+
+@media (min-width: $tablet-width) {
+	.comment {
+		padding-left: 82px;
+		padding-right: 120px;
+		background: rgba(47, 128, 237, 0.05);
+		border-radius: 100px;
+		margin-bottom: 80px;
+	}
+
+	.comment__title {
+		font-size: 30px;
+		text-align: left;
+	}
+
+	.comment__author {
+		padding: 40px 41px 20px 51px;
+	}
+
+	.comment__author-image {
+		margin-bottom: 60px;
+	}
+}

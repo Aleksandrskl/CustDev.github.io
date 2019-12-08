@@ -9,3 +9,17 @@
 	margin: 0;
 	margin-bottom: 50px;
 }
+
+@media (min-width: $tablet-width) {
+	.offer__title {
+		font-size: 30px;
+	}
+
+	.offer__wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding-left: 94px;
+		padding-right: 94px;
+	}
+}

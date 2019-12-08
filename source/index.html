@@ -6,6 +6,7 @@
 	<title>GustDev</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.min.css">
+	<script src="js/picturefill.min.js" async=""></script>
 </head>
 <body>
 	<div class="wrapper">	
@@ -122,6 +123,7 @@
 						<p class="course-program__hidden-text">про который все давно говорят, но мало кто делает</p>
 						<span class="course-program__hidden-circle"></span>
 					</div>
+					</div>
 				</section>
 				<section class="effect">
 					<h2 class="effect__title">Результат</h2>
@@ -148,6 +150,10 @@
 					<h2 class="trust__title">Почему мне можно доверять</h2>
 					<div class="video">
 						<picture>
+							<!-- <source type="image/webp" media="(min-width: 1440px)" srcset="img/photo-1-tablet.webp 1x, img/photo-1-tablet@2x.webp 2x">-->
+							<source type="image/webp" media="(min-width: 768px)" srcset="img/tablet/video-image@1x.webp, img/tablet/video-image@2x.webp 2x">
+							<source type="image/webp" srcset="img/mobile/video-image@1x.webp, img/mobile/video-image@2x.webp 2x">
+
 	            <source media="(min-width: 1440px)" srcset="img/desktop/video-image@1x.jpg, img/desktop/video-image@1x.jpg 2x">
 	            <source media="(min-width: 768px)" srcset="img/tablet/video-image@1x.jpg, img/tablet/video-image@2x.jpg 2x">
 	            <img class="video__trust" src="img/mobile/video-image@1x.jpg" srcset="img/mobile/video-image@2x.jpg 2x" alt="Видеопрезентация">
@@ -208,6 +214,8 @@
 						<div class="gallery__сard">
 							<a href="#" class="gallery__image-link">
 								<picture>
+									<source media="(min-width: 1440px)" srcset="img/tablet/gallry1.jpg, img/tablet/gallry1@2x.jpg 2x">
+	            		<source media="(min-width: 768px)" srcset="img/tablet/gallry1.jpg, img/tablet/gallry1@2x.jpg 2x">
 									<img src="img/mobile/gallry1.jpg" srcset="img/mobile/gallry1@2x.jpg 2x" alt="Галерея прошлых потоков">
 								</picture>
 							</a>
@@ -215,6 +223,7 @@
 						<div class="gallery__сard">
 							<a href="#" class="gallery__image-link">
 								<picture>
+									<source media="(min-width: 768px)" srcset="img/tablet/gallry2.jpg, img/tablet/gallry2@2x.jpg 2x">
 									<img src="img/mobile/gallry2.jpg" srcset="img/mobile/gallry2@2x.jpg 2x" alt="Галерея прошлых потоков">
 								</picture>
 							</a>
@@ -222,6 +231,7 @@
 						<div class="gallery__сard">
 							<a href="#" class="gallery__image-link">
 								<picture>
+									<source media="(min-width: 768px)" srcset="img/tablet/gallry3.jpg, img/tablet/gallry3@2x.jpg 2x">
 									<img src="img/mobile/gallry3.jpg" srcset="img/mobile/gallry3@2x.jpg 2x" alt="Галерея прошлых потоков">
 								</picture>
 							</a>
@@ -229,6 +239,7 @@
 						<div class="gallery__сard">
 							<a href="#" class="gallery__image-link">
 								<picture>
+									<source media="(min-width: 768px)" srcset="img/tablet/gallry4.jpg, img/tablet/gallry4@2x.jpg 2x">
 									<img src="img/mobile/gallry4.jpg" srcset="img/mobile/gallry4@2x.jpg 2x" alt="Галерея прошлых потоков">
 								</picture>
 							</a>
@@ -236,6 +247,7 @@
 						<div class="gallery__сard">
 							<a href="#" class="gallery__image-link">
 								<picture>
+									<source media="(min-width: 768px)" srcset="img/tablet/gallry5.jpg, img/tablet/gallry5@2x.jpg 2x">
 									<img src="img/mobile/gallry5.jpg" srcset="img/mobile/gallry5@2x.jpg 2x" alt="Галерея прошлых потоков">
 								</picture>
 							</a>
@@ -243,6 +255,7 @@
 						<div class="gallery__сard">
 							<a href="#" class="gallery__image-link">
 								<picture>
+									<source media="(min-width: 768px)" srcset="img/tablet/gallry6.jpg, img/tablet/gallry6@2x.jpg 2x">
 									<img src="img/mobile/gallary6.jpg" srcset="img/mobile/gallary6@2x.jpg 2x" alt="Галерея прошлых потоков">
 								</picture>
 							</a>
@@ -250,6 +263,7 @@
 						<div class="gallery__сard">
 							<a href="#" class="gallery__image-link">
 								<picture>
+									<source media="(min-width: 768px)" srcset="img/tablet/gallry7.jpg, img/tablet/gallry7@2x.jpg 2x">
 									<img src="img/mobile/gallary7.jpg" srcset="img/mobile/gallary7@2x.jpg 2x" alt="Галерея прошлых потоков">
 								</picture>
 							</a>
@@ -257,6 +271,7 @@
 						<div class="gallery__сard">
 							<a href="#" class="gallery__image-link">
 								<picture>
+									<source media="(min-width: 768px)" srcset="img/tablet/gallry8.jpg, img/tablet/gallry8@2x.jpg 2x">
 									<img src="img/mobile/gallary8.jpg" srcset="img/mobile/gallary8@2x.jpg 2x" alt="Галерея прошлых потоков">
 								</picture>
 							</a>
@@ -265,6 +280,7 @@
 				</section>
 				<section class="offer">
 					<h2 class="offer__title">Стоимость для компаний</h2>
+					<div class="offer__wrapper">
 					<div class="offer-card">
 						<h2 class="offer-card__cost">32 900 ₽</h2>
 						<p class="offer-card__number">1 сотрудник</p>
@@ -285,6 +301,7 @@
 						<h2 class="offer-card__cost">25 900 ₽</h2>
 						<p class="offer-card__number">Тариф “Для себя”</p>
 						<a href="#" class="offer-card__btn btn">Оформить</a>
+					</div>
 					</div>
 				</section>
 				<section class="price">
@@ -309,7 +326,7 @@
 							</p>
 						</li>
 						<li class="price__item price__item--video">
-							<video class="price__video-img" width="177" height="166" poster="img/mobile/video-image.jpg">
+							<video class="price__video-img" width="177" height="166" poster="img/mobile/price-video.jpg">
 							</video>
 							<button class="price__btn">
 								<svg width="40" height="40" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -346,6 +363,7 @@
 				</form>
 			</main>
 			<footer class="footer">
+				<div class="footer__wrapper">
 				<ul class="footer__list">
 					<li class="footer__item footer__item--active">
 						<a href="#" class="footer__link">
@@ -362,12 +380,11 @@
 							Минск
 						</a>
 					</li>
-					<li class="footer__item">
-						<a href="#" class="footer__link-btn">
-							Записаться на курс
-						</a>
-					</li>
 				</ul>
+				<a href="#" class="footer__link-btn">
+					Записаться на курс
+				</a>
+			  </div>
 				<div class="copyright">
 					<ul class="copyright__list">
 						<li class="copyright__item">

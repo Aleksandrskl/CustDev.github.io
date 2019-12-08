@@ -68,3 +68,21 @@
 	box-shadow: inset 0 0 0 2px #0e69e34d;
 	border: 0;
 }
+
+@media (min-width: $tablet-width) {
+	.feedback {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 105px 94px 90px 94px;
+	}
+
+	.feedback__button {
+		width: 280px;
+		height: 50px;
+	}
+
+	.feedback__input {
+		margin-bottom: 30px;
+	}
+}

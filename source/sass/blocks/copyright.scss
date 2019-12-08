@@ -34,3 +34,24 @@
 .copyright__link:active {
 	color: #999;
 }
+
+@media (min-width: $tablet-width) {
+	.copyright {
+		display: flex;
+		justify-content: space-between;
+		padding: 40px 20px;
+	}
+
+	.copyright__item {
+		text-align: left;
+	}
+
+	.copyright__list {
+		order: 2;
+		margin: 0;
+	}
+
+	.copyright__text {
+		padding-top: 15px;
+	}
+}
