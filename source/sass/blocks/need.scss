@@ -28,3 +28,23 @@
 		padding: 0 94px;
 	}
 }
+
+@media (min-width: $desktop-width) {
+	.need {
+		display: flex;
+		padding-left: 135px;
+		padding-right: 135px;
+	}
+
+	.need__title {
+		width: 600px;
+		padding: 0;
+		padding-top: 170px;
+		text-align: left;
+	}
+
+	.need__wrapper {
+		justify-content: space-evenly;
+		padding: 0;
+	}
+}

@@ -33,3 +33,15 @@
 		margin-bottom: 0;
 	}
 }
+
+@media (min-width: $desktop-width) {
+	.example__description {
+		width: 230px;
+	}
+
+	.example {
+		padding-right: 28px;
+		padding-left: 54px;
+		margin-bottom: 60px;
+	}
+}
