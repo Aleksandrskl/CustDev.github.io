@@ -4,6 +4,10 @@
 	margin-bottom: 70px;
 }
 
+.video__name {
+	display: none;
+}
+
 .video__trust {
 	border-radius: 10px;
 }
@@ -21,5 +25,37 @@
 	.video__btn {
 		left: 44%;
 		top: 40%;
+	}
+}
+
+@media (min-width: $desktop-width) {
+	.video__btn {
+		left: 28%;
+		top: 40%;
+	}
+
+	.video__name {
+		display: block;
+		position: absolute;
+		right: 0;
+    top: 100px;
+    padding: 60px 50px;
+		background-color: #ffffff;
+		box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.1);
+		border-radius: 10px;
+	}
+
+	.video__name-title {
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 44px;
+		color: #2F80ED;
+		margin: 0;
+		margin-bottom: 10px;
+	}
+
+	.video__name-title-text {
+		font-size: 18px;
+		margin: 0;
 	}
 }

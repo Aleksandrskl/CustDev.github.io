@@ -74,6 +74,7 @@
 		padding-left: 96px;
 		padding-right: 105px;
 	}
+
 	.effect__title {
 		width: 371px;
 		font-size: 30px;
@@ -101,5 +102,26 @@
 
 	.effect__item--cases {
 		padding-bottom: 116px;
+	}
+}
+
+@media (min-width: $desktop-width) {
+	.effect {
+		padding-left: 135px;
+		padding-right: 135px;
+	}
+
+	.effect__list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.effect__title {
+		font-size: 35px;
+	}
+
+	.effect__item--cases:last-child {
+		margin-bottom: 25px;
 	}
 }

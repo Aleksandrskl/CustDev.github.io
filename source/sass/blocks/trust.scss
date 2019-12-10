@@ -93,3 +93,15 @@
 		margin-bottom: 0;
 	}
 }
+
+@media (min-width: $desktop-width) {
+	.trust {
+		padding-left: 135px;
+		padding-right: 135px;
+	}
+
+	.trust__title {
+		font-size: 35px;
+		margin-bottom: 70px;
+	}
+}

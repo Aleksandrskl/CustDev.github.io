@@ -31,3 +31,16 @@
 		justify-content: space-between;
 	}
 }
+
+@media (min-width: $desktop-width) {
+	.audience {
+		padding-left: 250px;
+		padding-right: 250px;
+	}
+
+	.audience__title {
+		width: 775px;
+		font-size: 30px;
+		margin-bottom: 60px;
+	}
+}

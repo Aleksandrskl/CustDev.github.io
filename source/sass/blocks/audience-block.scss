@@ -15,3 +15,9 @@
 	margin-top: 15px;
 	margin-bottom: 25px;
 }
+
+@media (min-width: $desktop-width) {
+	.audience-block {
+		width: 224px;
+	}
+}

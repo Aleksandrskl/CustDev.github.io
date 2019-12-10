@@ -62,3 +62,9 @@
 		margin-bottom: 60px;
 	}
 }
+
+@media (min-width: $desktop-width) {
+	.comment__title {
+		font-size: 35px;
+	}
+}
