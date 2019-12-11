@@ -64,7 +64,38 @@
 }
 
 @media (min-width: $desktop-width) {
+	.comment {
+		position: relative;
+		padding-left: 135px;
+		padding-right: 135px;
+		margin-bottom: 100px;
+	}
+
+	.comment__author--position {
+		position: absolute;
+		top: 125px;
+		right: 30px;
+	}
+
+	.comment__author-image--position {
+		position: absolute;
+		top: 500px;
+		right: 480px;
+	}
+
 	.comment__title {
 		font-size: 35px;
+	}
+
+	.comment__author__title {
+		font-size: 16px;
+	}
+
+	.comment__author__descripion{
+		font-size: 16px;
+	}
+
+	.comment__author {
+		width: 460px;
 	}
 }
