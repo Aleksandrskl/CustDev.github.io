@@ -313,10 +313,14 @@
 						<a href="#" class="offer-card__btn btn">Оформить</a>
 						<span class="offer-card__discount">Выгодно</span>
 					</div>
-					<div class="offer-card">
+					<div class="offer-card offer-card--position">
+						<div class="offer-card__content">
 						<h2 class="offer-card__cost">25 900 ₽</h2>
 						<p class="offer-card__number">Тариф “Для себя”</p>
+						</div>
+						<div class="offer-card__link">
 						<a href="#" class="offer-card__btn btn">Оформить</a>
+						</div>
 					</div>
 					</div>
 				</section>
@@ -342,8 +346,10 @@
 							</p>
 						</li>
 						<li class="price__item price__item--video">
-							<video class="price__video-img" width="177" height="166" poster="img/mobile/price-video.jpg">
-							</video>
+						<picture>
+								<source media="(min-width: 1440px)" srcset="img/desktop/price-video.jpg, img/desktop/price-video@2x.jpg 2x">
+								<img class="price__video-img" src="img/mobile/price-video.jpg" srcset="img/mobile/price-video@2x.jpg 2x" alt="Прайс">
+							</picture>
 							<button class="price__btn">
 								<svg width="40" height="40" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<circle opacity="0.5" cx="35" cy="35" r="35" fill="#2F80ED"/>

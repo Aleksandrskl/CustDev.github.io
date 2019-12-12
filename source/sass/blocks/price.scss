@@ -3,7 +3,7 @@
 	padding-bottom: 40px;
 	background-color: #2F80ED;
 	border-radius: 20px;
-	margin-bottom: 115px;
+	margin-bottom: 70px;
 }
 
 .price__title {
@@ -75,9 +75,19 @@
 	left: 42%;
 	top: 40%;
 	border: none;
+	outline: none;
 	background-color: transparent ;
 	padding: 0;
 }
+
+.price__btn svg:hover {
+	opacity: 0.9;
+}
+
+.price__btn svg:active {
+	opacity: 0.5;
+}
+
 
 .price__head {
 	font-weight: 600;
@@ -134,5 +144,43 @@
 
 	.price__video-img {
 		margin-bottom: 30px;
+	}
+}
+
+@media (min-width: $desktop-width) {
+	.price {
+		padding-left: 285px;
+		padding-right: 285px;
+	}
+
+	.price__list {
+		padding: 0;
+	}
+
+	.price__title {
+		text-align: left;
+	}
+
+	.price__item {
+		width: 345px;
+		margin: 0;
+		margin-bottom: 50px;
+	}
+
+	.price__btn {
+		left: 44%;
+		top: 40%;
+	}
+
+	.price__item--video {
+		width: 303px;
+	}
+
+	.price__list {
+		justify-content: space-between;
+	}
+
+	.price__item:last-child {
+		margin-bottom: 50px;
 	}
 }

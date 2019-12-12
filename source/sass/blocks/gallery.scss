@@ -1,3 +1,7 @@
+.gallery {
+	margin-bottom: 50px;
+}
+
 .gallery__title {
 	font-weight: 700;
 	font-size: 24px;
@@ -11,7 +15,6 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin-bottom: 60px;
 }
 
 .gallery__image-link {
@@ -19,20 +22,31 @@
 }
 
 .gallery__сard {
-	padding-bottom: 5px;
+	margin-bottom: 5px;
 }
 
 .gallery__сard:nth-child(7) {
-	padding: 0;
+	margin: 0;
 }
 
 .gallery__сard:nth-child(8) {
-	padding: 0;
+	margin: 0;
 }
 
 @media (min-width: $tablet-width) {
 	.gallery__title {
 		font-size: 30px;
 		margin-bottom: 70px;
+	}
+}
+
+
+@media (min-width: $desktop-width) {
+	.gallery {
+	margin-bottom: 70px;
+}
+
+	.gallery__сard {
+		margin-bottom: 20px;
 	}
 }

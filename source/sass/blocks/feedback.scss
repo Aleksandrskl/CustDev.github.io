@@ -86,3 +86,25 @@
 		margin-bottom: 30px;
 	}
 }
+
+@media (min-width: $desktop-width) {
+	.feedback {
+		padding: 108px 135px 90px 135px;
+	}
+
+	.feedback__input {
+		width: 265px;
+	}
+
+	.feedback__button {
+		width: 260px;
+	}
+
+	.feedback__input {
+		margin-bottom: 0;
+	}
+
+	.feedback__input:nth-last-child(2) {
+		margin-bottom: 0;
+	}
+}

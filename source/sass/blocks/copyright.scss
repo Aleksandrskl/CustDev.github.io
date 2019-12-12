@@ -55,3 +55,20 @@
 		padding-top: 15px;
 	}
 }
+
+@media (min-width: $desktop-width) {
+	.copyright {
+		align-items: center;
+		padding: 40px 135px;
+	}
+
+	.copyright__list {
+		display: flex;
+		justify-content: space-between;
+		width: 450px;
+	}
+
+	.copyright__text {
+		padding-top: 0;
+	}
+}

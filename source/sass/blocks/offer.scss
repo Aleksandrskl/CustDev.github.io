@@ -1,6 +1,7 @@
 .offer {
 	margin-bottom: 50px;
 }
+
 .offer__title {
 	font-weight: 700;
 	font-size: 24px;
@@ -21,5 +22,18 @@
 		justify-content: space-between;
 		padding-left: 94px;
 		padding-right: 94px;
+	}
+}
+
+
+@media (min-width: $desktop-width) {
+	.offer {
+		margin-bottom: 80px;
+		padding-left: 250px;
+		padding-right: 250px;
+	}
+
+	.offer__wrapper {
+		padding: 0;
 	}
 }
