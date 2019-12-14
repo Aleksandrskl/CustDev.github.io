@@ -16,3 +16,9 @@
 	background-color: #00d8b4;
 	color: rgba(255,255,255,.7);
 }
+
+@media (min-width: $tablet-width) {
+	.btn {
+		padding: 18px 40px;
+	}
+}

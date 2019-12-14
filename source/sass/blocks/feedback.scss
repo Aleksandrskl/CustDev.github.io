@@ -71,25 +71,44 @@
 
 @media (min-width: $tablet-width) {
 	.feedback {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
 		padding: 105px 94px 90px 94px;
 	}
 
 	.feedback__button {
 		width: 280px;
-		height: 50px;
 	}
 
 	.feedback__input {
 		margin-bottom: 30px;
 	}
+
+	.feedback input[type="tel"] {
+		margin-left: 15px;
+	}
+
+	.feedback input[type="email"] {
+		margin-bottom: 0;
+	}
+
+	.feedback__button {
+		margin-left: 15px;
+	}
 }
 
 @media (min-width: $desktop-width) {
 	.feedback {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
 		padding: 108px 135px 90px 135px;
+	}
+
+	.feedback input[type="tel"] {
+		margin-left: 0;
+	}
+
+	.feedback__button {
+		margin-left: 0;
 	}
 
 	.feedback__input {
