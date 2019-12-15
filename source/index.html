@@ -10,7 +10,9 @@
 <body>
 	<div class="wrapper">	
 		<header class="page-header">
-			<nav class="main-nav">
+			<nav class="main-nav main-nav--opened main-nav--nojs">
+				<button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+				<div class="main-nav__wrapper">		
 				<ul class="main-nav__list city-list">
 					<li class="city-list__item">
 						<a href="#" class="city-list__link">Санкт-Петербург</a>
@@ -23,12 +25,25 @@
 					</li>
 				</ul>
 				<ul class="main-nav__list site-list">
-					<li class="site-list__item"><a href="#" class="site-list__link">Программа</a></li>
-					<li class="site-list__item"><a href="#" class="site-list__link">Отзывы</a></li>
-					<li class="site-list__item"><a href="#" class="site-list__link">Стоимость</a></li>
-					<li class="site-list__item"><a href="#" class="site-list__link">О преподавателе</a></li>
-					<li class="site-list__item"><a href="#" class="site-list__link">записаться на курс</a></li>
+					<li class="site-list__item">
+						<a href="#prgramm" class="site-list__link">Программа</a>
+					</li>
+					<li class="site-list__item">
+						<a href="#comments" class="site-list__link">Отзывы</a>
+					</li>
+					<li class="site-list__item">
+						<a href="#cost" class="site-list__link">Стоимость</a>
+					</li>
+					<li class="site-list__item">
+						<a href="#info" class="site-list__link">О преподавателе</a>
+					</li>
 				</ul>
+				<ul class="main-nav__list user-list">
+					<li class="user-list__item user-list__item--active">
+						<a href="#" class="user-list__link user-list__btn">Запись на курс</a>
+					</li>
+				</ul>
+				</div>
 			</nav>
 			<section class="page-welcome">
 				<span class="page-welcome__description-data">Санкт-петербург 10-21 мая</span>
@@ -86,7 +101,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="course-program">
+			<section id="prgramm" class="course-program">
 				<div class="course-program__wrapper">
 					<h2 class="course-program__title">Что будет на курсе</h2>
 					<div class="course-program__list-wrapper">
@@ -145,7 +160,7 @@
 						</li>	
 					</ul>
 				</section>
-				<section class="trust">
+				<section id="info" class="trust">
 					<h2 class="trust__title">Почему мне можно доверять</h2>
 					<div class="video">
 						<picture>
@@ -187,7 +202,7 @@
 						</li>
 					</ul>
 				</section>
-				<section class="comment">
+				<section id="comments" class="comment">
 					<h2 class="comment__title">Отзывы</h2>
 					<div class="comment__author">
 						<h3 class="comment__author__title">Иван Матвейчук</h3>
@@ -325,7 +340,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="offer">
+				<section id="cost" class="offer">
 					<h2 class="offer__title">Стоимость для компаний</h2>
 					<div class="offer__wrapper">
 					<div class="offer-card">
@@ -438,7 +453,7 @@
 					</li>
 				</ul>
 				<a href="#" class="footer__link-btn">
-					Записаться на курс
+					Запись на курс
 				</a>
 			  </div>
 				<div class="copyright">
@@ -460,5 +475,6 @@
 				</div>
 			</footer>
 		</div>
-	</body>
-	</html>
+	<script src="js/menu.js"></script>
+</body>
+</html>
